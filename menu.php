@@ -12,7 +12,6 @@
                     <li><a href="index.php">HOME</a></li>
                     <li><a href="about.php">ABOUT US</a></li>
                     <li><a href="faq.php">FAQ</a></li>
-                    <li><a href="plans.php">OUR PLANS</a></li>
                     <li><a href="support.php">CONTACT US</a></li>
                                         <li><a href="login.php" class="btn secondary-solid-btn check-btn">LOGIN</a></li>
                     <li><a href="signup.php" class="btn secondary-solid-btn check-btn">REGISTER</a></li>

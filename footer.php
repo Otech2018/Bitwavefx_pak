@@ -61,15 +61,15 @@
                                 <ul class="get-in-touch-list">
                                     <li class="d-flex align-items-center py-2"><span
                                             class="fas fa-envelope mr-2"></span> 
-                  <a href="<?=$site_email; ?>"><?=$site_email; ?>
+                                      <a href="<?=$site_email; ?>"><?=$site_email; ?>
                                     </a>
                                     </li>
+                                    
                                     <li class="d-flex align-items-center py-2"><span
-                                            class="fas fa-envelope mr-2"></span> 
-                                      <a href="<?=$site_email; ?>"> <?=$site_email; ?>
+                                            class="fas fa-phone mr-2"></span> 
+                                      <a href="<?=$site_phone; ?>"><?=$site_phone; ?>
                                     </a>
                                     </li>
-                                  
                                 </ul>
                             </div>
                         </div>

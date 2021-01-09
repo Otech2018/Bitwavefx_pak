@@ -21,7 +21,7 @@
     <meta property="og:url" content="index.html"/>
     <meta property="og:type" content="article"/>
     <title>BITWAFEFX Limited</title>
-	<base  src="index.html" />
+	<!-- <base  src="index.html" /> -->
     <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7COpen+Sans:400,600&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -44,14 +44,15 @@
                 <div class="col-md-7 col-lg-7 d-none d-md-block d-lg-block">
                     <div class="topbar-text text-white">
                         <ul class="list-inline">
-                           
+                            <li class="list-inline-item"><span class="fas fa-clipboard-list mr-1"></span> Company Number <a target="_blank" href="tel:<?=$site_phone; ?>">
+                            <font color="#e80566"><?=$site_phone; ?></font></a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4">
                     <div class="topbar-text text-white">
                         <ul class="list-inline">
-                            <li class="list-inline-item" style="float: right"><span class="fas fa-envelope-open-text mr-1"></span> <a href="mailto:support@polyvorex.com"><?=$site_email; ?></a></li>
+                            <li class="list-inline-item" style="float: right"><span class="fas fa-envelope-open-text mr-1"></span> <a href="mailto:<?=$site_email; ?>"><?=$site_email; ?></a></li>
                         </ul>
                     </div>
                 </div>
